@@ -1,24 +1,16 @@
-# README
+# One Exchange
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Esse é um projeto desenvolvido no bootcamp de Ruby on Rails da OneBitCode, cuja proposta é desenvolver uma aplicação para conversão de moedas.
 
-Things you may want to cover:
+Onde o usuário informará um valor X de uma determinada moeda e será retornado um valor Y da moeda selecionada para conversão.
 
-* Ruby version
+Para execução do projeto você deve ter Docker instalado.
 
-* System dependencies
+Depois de clonado o projeto, dentro da pasta do mesmo execute os seguintes comandos:
+* docker-compose build
+* docker-compose exec website rails db:create
+* docker-compose up
 
-* Configuration
+Agora só acessar a url http://localhost:3000 e utilizar a aplicação.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Em breve maiores detalhes.
