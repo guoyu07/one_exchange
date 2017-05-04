@@ -2,13 +2,17 @@
     .card{
       border: 0;
       .card-header{
-        background-color: #878d99;
+        background-color: #453921;
         border-radius: 0;
         color: white;
         font-weight: 700;
       }
       .card-block{
         padding-top: 10px;
+        .icon{
+          color: #878DA2;
+          cursor: pointer;
+        }
         .title{
           color: #878d99;
           font-weight: 700;
